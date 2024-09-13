@@ -1,0 +1,84 @@
+
+/* Class = "UILabel"; text = "Enter your credentials to continue."; ObjectID = "383-3d-LuD"; */
+"383-3d-LuD.text" = "Enter your credentials to continue.";
+
+/* Class = "UILabel"; text = "Mobile Number"; ObjectID = "3Ke-wd-pID"; */
+"3Ke-wd-pID.text" = "Mobile Number";
+
+/* Class = "UITextField"; placeholder = "Enter your Last name"; ObjectID = "3RT-hk-1xe"; */
+"3RT-hk-1xe.placeholder" = "Enter your Last name";
+
+/* Class = "UILabel"; text = "Sign Up"; ObjectID = "4Cm-ah-bpZ"; */
+"4Cm-ah-bpZ.text" = "Sign Up";
+
+/* Class = "UILabel"; text = "First Name"; ObjectID = "4NN-jo-Xhn"; */
+"4NN-jo-Xhn.text" = "First Name";
+
+/* Class = "UILabel"; text = "Didn’t receive the OTP?"; ObjectID = "62g-UE-vxd"; */
+"62g-UE-vxd.text" = "Didn’t receive the OTP?";
+
+/* Class = "UILabel"; text = "Don’t have an account?"; ObjectID = "El7-QE-OTK"; */
+"El7-QE-OTK.text" = "Don’t have an account?";
+
+/* Class = "UILabel"; text = "Already have an account?"; ObjectID = "HkL-L7-5uu"; */
+"HkL-L7-5uu.text" = "Already have an account?";
+
+/* Class = "UILabel"; text = "1:00"; ObjectID = "LFS-5X-IAH"; */
+"LFS-5X-IAH.text" = "1:00";
+
+/* Class = "UILabel"; text = "The Highest Quality Vegetables, Fruits, And Cannabis Available In Your Area."; ObjectID = "M0Y-Rp-vA5"; */
+"M0Y-Rp-vA5.text" = "The Highest Quality Vegetables, Fruits, And Cannabis Available In Your Area.";
+
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "M4K-RZ-GFA"; */
+"M4K-RZ-GFA.normalTitle" = "Sign In";
+
+/* Class = "UITextField"; placeholder = "Enter your First name"; ObjectID = "Mqa-sD-eeB"; */
+"Mqa-sD-eeB.placeholder" = "Enter your First name";
+
+/* Class = "UITextField"; placeholder = "Enter your Mobile Number"; ObjectID = "OUn-xh-0G0"; */
+"OUn-xh-0G0.placeholder" = "Enter your Mobile Number";
+
+/* Class = "UILabel"; text = "Please enter your mobile number"; ObjectID = "PmW-rL-asx"; */
+"PmW-rL-asx.text" = "Please enter your mobile number";
+
+/* Class = "UILabel"; text = "+91"; ObjectID = "Pph-45-8kY"; */
+"Pph-45-8kY.text" = "+91";
+
+/* Class = "UILabel"; text = "Submit"; ObjectID = "SQV-4Q-DKi"; */
+"SQV-4Q-DKi.text" = "Submit";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "UhR-Yo-WJx"; */
+"UhR-Yo-WJx.normalTitle" = "Sign Up";
+
+/* Class = "UILabel"; text = "Sign Up"; ObjectID = "WbP-mM-Iyx"; */
+"WbP-mM-Iyx.text" = "Sign Up";
+
+/* Class = "UITextField"; placeholder = "Enter your Mobile Number"; ObjectID = "ZIX-ja-AhK"; */
+"ZIX-ja-AhK.placeholder" = "Enter your Mobile Number";
+
+/* Class = "UILabel"; text = "Welcome Back!"; ObjectID = "Zzg-tc-N5v"; */
+"Zzg-tc-N5v.text" = "Welcome Back!";
+
+/* Class = "UILabel"; text = "Continue as Guest"; ObjectID = "eMp-Mp-1hN"; */
+"eMp-Mp-1hN.text" = "Continue as Guest";
+
+/* Class = "UIButton"; normalTitle = "RESEND OTP"; ObjectID = "efZ-om-SrW"; */
+"efZ-om-SrW.normalTitle" = "RESEND OTP";
+
+/* Class = "UILabel"; text = "Mobile Number"; ObjectID = "emv-ba-srn"; */
+"emv-ba-srn.text" = "Mobile Number";
+
+/* Class = "UILabel"; text = "OTP Verification"; ObjectID = "gsC-gU-KkZ"; */
+"gsC-gU-KkZ.text" = "OTP Verification";
+
+/* Class = "UILabel"; text = "+91"; ObjectID = "rrB-xk-Ili"; */
+"rrB-xk-Ili.text" = "+91";
+
+/* Class = "UILabel"; text = "Sign In"; ObjectID = "sne-mQ-OkY"; */
+"sne-mQ-OkY.text" = "Sign In";
+
+/* Class = "UILabel"; text = "Last Name"; ObjectID = "wdf-Yt-cKd"; */
+"wdf-Yt-cKd.text" = "Last Name";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "xiJ-y7-pT9"; */
+"xiJ-y7-pT9.text" = "OR";

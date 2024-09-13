@@ -1,0 +1,353 @@
+/*
+ Localizable.strings
+ Semilla
+ 
+ Created by Netset on 19/04/24.
+ 
+ */
+
+//MARK: - App Name
+
+"appName" = "Semilla";
+
+
+//MARK: - AlertMessages
+
+"okay"                               = "Okay";
+"ok"                                 = "Ok";
+"checkInternet"                      = "Por favor revise su conexion a internet";
+"noInternetConnection"               = "Internet no disponible, Verifique su conectividad a Internet e inténtelo nuevamente.";
+"appNeedsPermission"                 = "Puede habilitar las funciones de seguimiento de ubicación otorgando acceso a la ubicación en la configuración de la aplicación.";
+"pleaseReviewyournetworksettings"    = "Revise la configuración de su red";
+"serverNotResponding"                = "Servidor no responde";
+"cameraPermissionNotAccess"          = "¡Se requiere acceso a la cámara para capturar fotografías!";
+"settingPermission"                  = "Esta aplicación necesita permiso para utilizar esta función. Puedes dar permiso en la configuración de la aplicación.";
+"sessionExpire"                      = "Su sesión ha caducado, inicie sesión nuevamente.";
+"logoutMsg"                          = "Are you sure you want to logout?";
+"serverNotRespondTryAgain"           = "Server not responding, Please try again.";
+"errrOccured"                        = "Error";
+"incorrectCardDetails"               = "Detalles de la tarjeta incorrectos.";
+"performLoginrequired"               = "Para realizar esta acción es necesario iniciar sesión!";
+"cultivatorOutsideChangeAddress"     = "Este cultivador se encuentra fuera de su área de servicio. Por favor cambie su dirección o productos.";
+"outOfStock"                         = "Agotado.";
+"itemHasOutOfStock"                  = "El artículo está agotado";
+"maximumQuantitLimitReached"         = "Se alcanzó el límite de cantidad máxima.";
+"addressUpdatedSuccessfully"         = "Dirección actualizada correctamente.";
+"addressAddedSuccessfully"           = "Dirección agregada exitosamente.";
+"areYouSureYouWantToCancelOrder"     = "¿Estás seguro de que deseas cancelar este pedido?";
+"numberIsNotValid"                   = "El número no es válido";
+"noNumberShowing"                    = "No se muestra ningún número";
+"areYouSureYouWantToDeleteAddress"   = "¿Estás seguro de que deseas eliminar esta dirección?";
+"areYouSureYouWantToDeleteCard"      = "¿Estás seguro de que quieres eliminar esta tarjeta?";
+"byContinuingYouAgreeToOur"          = "Al continuar, aceptas nuestros";
+"and"                                = " y ";
+"enterTheOTPSentTo"                  = "Ingresa el código enviado a ";
+"orderDeliveredSuccessfully"         = "Pedido entregado con éxito.";
+"orderHasBeenCancelled"              = "El pedido ha sido cancelado.";
+"orderHasBeenRejected"               = "El pedido ha sido rechazado.";
+"orderHasBeenPlacedSuccessfully"     = "Su pedido se ha realizado con éxito.";
+"whatDoYouWantToOrder?"              = "¿Que quiere ordenar?";
+
+//MARK: - AlertButtonsTitle
+
+"okay"                               = "Ok";
+"cancel"                             = "Cancelar";
+"setting"                            = "Configuración";
+"camera"                             = "Cámara";
+"gallery"                            = "Galería";
+"important"                          = "IMPORTANTE";
+"allowCamera"                        = "Permitir cámara";
+"cameraNotSupported"                 = "Cámara no compatible";
+"grantPermissions"                   = "Permitir permisos";
+"yes"                                = "Sí";
+"login"                              = "Acceso";
+"no"                                 = "No";
+"addCard"                            = "Agregar tarjeta";
+"changeCard"                         = "Cambiar tarjeta";
+"addAddress"                         = "Añadir dirección";
+"changeAddress"                      = "Cambiar dirección";
+"submit"                             = "Entregar";
+"next"                               = "Próxima";
+"goToCart"                           = "Carrito";
+"addToCart"                          = "AGREGAR AL CARRITO";
+"resendOTP"                          = "REENVIAR CODIGO";
+"reset"                              = "Reiniciar";
+"goToHome"                           = "IR A Casa";
+
+//MARK: - Display Names
+
+"editAddress"                        = "Editar dirección";
+"addNewAddress"                      = "Agregar nueva dirección";
+"plusAddNewAddress"                  = "+ Agregar nueva dirección";
+"privacyPolicy"                      = "política de privacidad";
+"termsOfService"                     = "Términos de servicio";
+"productDetails"                     = "Detalles del producto";
+
+// MARK: - ValidationMessages
+"ok"                                 = "OK";
+"connectionProblem"                  = "Connection Problem";
+"enterFirstName"                     = "El nombre no puede estar vacío.";
+"enterLastName"                      = "El apellido no puede estar vacío.";
+"enterMobileNo"                      = "El celular no puede estar vacío.";
+"enterPhoneNo"                       = "Celular no puede estar vacío.";
+"inValidMobileNo"                    = "Ingrese un celular válido.";
+"inValidPhoneNo"                     = "Por favor ingrese un número de teléfono válido.";
+"numberAlreadyRegistered"            = "This Mobile Number already registered, please try another.";
+"enterPassword"                      = "Please enter your password.";
+"enterOtp"                           = "El código no puede estar vacío.";
+"invalidOTP"                         = "El codigo es invalido.";
+"selectCountry"                      = "Por favor seleccione país.";
+"enterAddress"                       = "La dirección no puede estar vacía.";
+"enterApartments"                    = "El número de unidad/apartamento no puede estar vacío.";
+"enterStreet"                        = "La calle no puede estar vacía.";
+"enterCity"                          = "La ciudad no puede estar vacía.";
+"enterEmail"                         = "El correo electrónico no puede estar vacío.";
+"inValidEmail"                       = "Por favor ingrese una dirección de correo electrónico válida.";
+"enterFullName"                      = "El nombre no puede estar vacío.";
+"enterMessage"                       = "El mensaje no puede estar vacío.";
+"oTPSentSuccessfully"                = "Código enviado exitosamente.";
+"oTPReSentSuccessfully"              = "El código se reenvía correctamente.";
+"enterCardNo"                        = "El número de tarjeta no puede estar vacío.";
+"enterCardNoInvalid"                 = "Card Number is not valid.";
+"enterCardCvvInvalid"                = "CVV is not valid.";
+"enterCardUser"                      = "El nombre de la tarjeta no puede estar vacío.";
+"enterCardCvv"                       = "CVV no puede estar vacío.";
+"enterCardExpire"                    = "Por favor seleccione la fecha de vencimiento.";
+"enterCardAddedSuccess"              = "Tarjeta agregada exitosamente.";
+"profileCreated"                     = "Profile created successfully.";
+"profileUpdated"                     = "Los datos del perfil se actualizaron correctamente.";
+"selectRating"                       = "Por favor seleccione estrella de calificación.";
+"productAddedSuccess"                = "Producto añadido al carrito.";
+"itemOutOfStock"                     = "Algunos artículos están agotados. Por favor revisa tu carrito.";
+
+//MARK: - StoryBoard Strings
+
+//Main StoryBoard
+
+"heighestQualityVFCAvailble"         = "¡Frutas, verduras, flores y más desde la finca hasta la mesa!";
+"welcomeBack"                        = "Bienvenido.";
+"enterMobileNumber"                  = "Por favor ingrese su número de celular.";
+"mobileNumber"                       = "¿Numero de celular?";
+"enterYourMobileNumber"              = "Ingrese su numero celular.";
+"signIn"                             = "Iniciar sesión";
+"DontHaveAccount"                    = "¿No tienes una cuenta? ";
+"signUp"                             = "Inscribirse";
+"or"                                 = "O";
+"continueAsGuest"                    = "Continuar como invitado";
+"enterYourCredentialsToContinue"     = "Ingrese sus credenciales para continuar";
+"firstName"                          = "Nombre";
+"lastName"                           = "Apellido";
+"enterFName"                         = "Ingresa Nombre";
+"enterLName"                         = "Ingresa apellido";
+"enterCty"                           = "Ingresa la ciudad";
+"enterYourFirstName"                 = "Ingresa tu nombre";
+"enterYourLastName"                  = "Ingresa tu apellido";
+"alreadyHaveAnAccount"               = "¿Ya tienes una cuenta? ";
+"otpVerification"                    = "OTP Verificación";
+"didntReceiveTheOTP?"                = "¿No recibiste el código? ";
+"jan"                                = "Ene";
+"feb"                                = "Feb";
+"mar"                                = "Mar";
+"apr"                                = "Abr";
+"may"                                = "Mayo";
+"jun"                                = "Jun";
+"jul"                                = "Jul";
+"aug"                                = "Aug";
+"sep"                                = "Sep";
+"oct"                                = "Oct";
+"nov"                                = "Nov";
+"dec"                                = "Dec";
+
+//Home StoryBoard
+
+"recentlyListed"                     = "Listado recientemente";
+"all"                                = "Todo";
+"seeAll"                             = "Ver todo";
+"noItemFound"                        = "Artículo no encontrados";
+"trendingCultivator"                 = "Cultivadores de tendencia";
+"allProducts"                        = "Todos Productos";
+"cultivators"                        = "Cultivadores";
+"noCultivatorFound"                  = "No se encontró cultivador";
+"searchCultivators"                  = "Buscar cultivadores";
+"myProfile"                          = "Mi perfil";
+"chooseFrom"                         = "Escoge de";
+"orderHistory"                       = "Pedidos";
+"myAddresses"                        = "Direcciones";
+"myCards"                            = "Tarjetas";
+"credits"                            = "Créditos";
+"helpAndSupport"                     = "Ayuda y apoyo";
+"changeLanguage"                     = "Cambiar idioma";
+"aboutUs"                            = "Sobre nosotros";
+"signOut"                            = "Cerrar sesión";
+"searchHistory"                      = "Buscar Historia";
+"selectDebitCreditCard"              = "Seleccione una tarjeta de débito/crédito";
+"addNewCard"                         = "+ Agregar nueva tarjeta";
+"primary"                            = "Primaria";
+"noCardFound"                        = "No se encontró tarjeta";
+"creditDebitCard"                    = "Tarjeta de crédito/débito";
+"enterYourCreditDebitCardDetails"    = "Por favor ingrese su número de tarjeta de crédito/débito";
+"enterCreditDebitCardNumber"         = "Ingrese su número de tarjeta de débito/crédito";
+"enterCardHolderName"                = "Ingrese el nombre de la tarjeta";
+"cvv"                                = "CVV";
+"expiry"                             = "Expiración";
+"save"                               = "Guadar";
+"profileDetails"                     = "Detalles del perfil";
+"products"                           = "Productos";
+"ourProducts"                        = "Nuestros productos";
+"customerReview"                     = "Opinión del cliente";
+"addOrChooseAnAddress"               = "Añadir o elegir una direccióne";
+"enterAddress"                       = "Ingresa la direccion";
+"currentLocation"                    = "Ubicación actual";
+"noReviews"                          = "Sin estrellas";
+"filter"                             = "Filtrar";
+"ratings"                            = "Estrellas";
+"categories"                         = "Categorías";
+"apply"                              = "Aplicar";
+"km"                                 = "Km";
+"0Km"                                = "0KM";
+"100Km"                              = "100KM";
+"location"                           = "Ubicación";
+"plusAddAddress"                     = "+ Añadir dirección";
+"noAddressFound"                     = "No se encontró ninguna dirección";
+"editProfile"                        = "Editar perfil";
+"country"                            = "País";
+"selectCountry"                      = "seleccione país";
+"phoneNumber"                        = "Número de teléfono";
+"enterphoneNumber"                   = "Ingresa número telefónico";
+"address"                            = "Dirección";
+"enterAddress"                       = "Ingrese dirección";
+"apartment"                          = "Número de unidad/apartamento";
+"enterApartment"                     = "Ingrese el número de unidad/apartamento";
+"street"                             = "Calle";
+"enterStreet"                        = "Ingrese Calle";
+"notifications"                      = "Notificaciones";
+"noNotificationsFound"               = "No se encontró ninguna notificación";
+"contactUs"                          = "Contacta con nosotros";
+"empoweringWithSupportAndSolutions"  = "Empoderándolo con soporte y soluciones.";
+"enterYourEmail"                     = "Nombre Completo";
+"enterYourFullName"                  = "Nombre Completo";
+"enterYourMessage"                   = "Ingrese su mensaje";
+"sendMessage"                        = "Enviar mensaje";
+"success"                            = "¡Éxito!";
+"ConcernHasReceived"                 = "Su inquietud ha sido recibida. Responderemos pronto.";
+"chooseLanguage"                     = "Elige idioma";
+"english"                            = "English";
+"spanish"                            = "Español";
+"shoppingCart"                       = "Carrito";
+"wantToApplyCredits"                 = "¿Quieres aplicar créditos?";
+"availableCredits"                   = "¿Créditos disponibles?";
+"yourCartIsGettingLonely"            = "Tu carrito está solo";
+"fillItUpWithGoodThings"             = "Llénalo de cosas saludables";
+"deliveredTo"                        = "Entregado a:";
+"noDeliveryAddress"                  = "Sin dirección de entrega";
+"deliveryTime"                       = "Hora de entrega";
+"paymentInformation"                 = "Información del pago:";
+"noCardAdded"                        = "No se agregó ninguna tarjeta";
+"billDetails"                        = "Detalles de la factura";
+"itemTotal"                          = "Costo de productos";
+"deliveryFee"                        = "Costo de envío";
+"serviceFee"                         = "Tarifa de servicio";
+"cartTotal"                          = "Total";
+"makeAnInitialCharge"                = "Vamos a realizar un cargo inicial a tu método de pago. Si hay alguna modificación, la ajustaremos cuando se entregue su pedido. Al hacer clic en este botón se cargará su tarjeta.";
+"checkOut"                           = "Pagar";
+
+// StoryBoard Checkout
+
+"helpSupport"                        = "Ayuda apoyo";
+"viewOrderDetails"                   = "Ver detalles de la orden";
+"noDriverAssign"                     = "¡No hay conductor asignado!";
+"otp"                                = "OTP:";
+"estimatedTime"                      = "Tiempo estimado";
+"mins"                               = "Minutos";
+"driverDetails"                      = "Detalles de Entregador";
+"id"                                 = "ID:";
+"selectAddress"                      = "Seleccionar dirección";
+"searchAddress"                      = "Buscar dirección...";
+"home"                               = "Hogar";
+"office"                             = "Oficina";
+"other"                              = "Otro";
+"order"                              = "Pedido";
+"placedOn"                           = "Ordenado:";
+"items"                              = "Artículo(s):";
+"price"                              = "Precio:";
+"orderDelivered"                     = "Pedido entregado";
+"orderPlaced"                        = "¡Pedido realizado!";
+"orderPlacedNew"                     = "Pedido realizado";
+"orderCanceled"                      = "Cancelado";
+"readyToPickup"                      = "Listo para recoger";
+"outForDelivery"                     = "Fuera para entrega";
+"orderInitiated"                     = "Pedido iniciada";
+"orderAccepted"                      = "Pedido aceptado";
+"deliveryPartnerAssigned"            = "Entregador asignado";
+"orderRejected"                      = "Rechazado";
+"atDeliveryLocation"                 = "Llegó al lugar de entrega";
+"noOrderHistoryFound"                = "no se encontraron pedidos";
+"store"                              = "Tienda";
+"myLocation"                         = "Mi ubicacion";
+"orderDetails"                       = "Detalles del pedido";
+"estimatedArrival"                   = "llegada estimada";
+"trackOrder"                         = "Rastrear Pedido";
+"deliveryAddress"                    = "Dirección de entrega";
+"outForDelivery..."                  = "Fuera para entrega ...";
+"trackDriverOnMap"                   = "Su pedido ya está disponible para entrega. Siga al conductor en el mapa.";
+"pickYourOrder"                      = "El conductor ha llegado a su ubicación. Por favor recoja su pedido.";
+"driverFeedback"                     = "Revisión del conductor";
+"productFeedback"                    = "Revision de producto";
+"provideFeedBackDriver"              = "Proporcionar comentarios para el entregador.";
+"provideFeedbackProduct"            = "Proporcionar comentarios sobre el producto.";
+"writeReview"                        = "Escribir un comentario";
+"quicklyRateYourDriver"              = "Califique rápidamente el servicio de su conductor. ¡Valoramos sus comentarios!";
+"letUsKnowWhatYouThink"              = "Danos tu opinión";
+"skip"                               = "Saltar";
+"shareYourExperience"                = "¿Te encantó lo que recibiste? Danos una calificación rápida y comparte tu experiencia.";
+"productReview"                      = "Revision de producto";
+"Successful"                         = "Exitosa!";
+"orderSuccessfullyDelivered"         = "Su pedido ha sido entregado exitosamente. Esperamos que esté satisfecho con su compra. Por favor comparta sus comentarios con nosotros.";
+"registrationSuccessful"            = "Registro exitoso.";
+"orderPlacedSuccessful"              = "Pedido realizado!";
+"areYouSureYouWantToSignout?"        = "¿Estás seguro de que quieres cerrar sesión?";
+"selectExpiryDate"                   = "Seleccione la fecha de vencimiento";
+"confirmation"                       = "¿Confirmación?";
+"areYouSureYouWantToProceed?"        = "¿Estas seguro que deseas continuar?";
+
+//New
+"credits"                            = "Créditos";
+"availableCredits"                   = "Créditos Disponibles:";
+"creditHistory"                      = "Historial de Créditos";
+"lifetimeCredits"                    = "Créditos de por vida";
+"weWillNotifyYouHaveAvailableAgain"  = "Te avisaremos cuando vuelvas a tener créditos disponibles";
+"atTheMomentHaveNoAvailableCredits"  = "Por el momento, no tienes créditos disponibles";
+"city"                               = "Ciudad";
+"exp"                                = "vencimiento";
+"monthAgo"                           = "hace mes";
+"dayAgo"                             = "hace día";
+"hourAgo"                            = "hace hora";
+"yearAgo"                            = "hace año";
+"minuteAgo"                          = "hace minuto";
+"weekAgo"                            = "hace semana";
+"justNow"                            = "En este momento";
+"selectType"                         = "Seleccione el Tarjeta Tipo";
+"selectCardType"                     = "Por favor seleccione el tipo de tarjeta.";
+"deleteAccountValidation" = "¿Estás segura de que quieres eliminar tu cuenta?";
+"deleteAccount" = "Borrar cuenta";
+"update" = "Actualizar";
+"orderMinimumAmount" = "El pedido debe ser mínimo de $25,000 pesos.";
+"cultivatorStatus" = "El cultivador no está disponible en este momento.";
+"atTheMoment"                        = "Por el momento tienes";
+"availableCred"                      = "créditos disponibles";
+"weWillNotify"                       = "Te avisaremos cuando vuelva a tener alguno disponible";
+"creditsApplied"                     = "Créditos aplicados";
+"noCreditsHistory"                   = "Sin historial de créditos";
+"creditedOn"                         = "Acreditado en";
+"spentOn"                            = "Gastado en";
+"expired"                            = "Caducado";
+"expiredOn"                          = "Caducado el";
+"OA"                                 = "Pedido aceptado";
+"OP"                                 = "Pedido realizado";
+"OFD"                                = "Fuera para entrega";
+"OD"                                 = "Orden Entregada";
+"DPA"                                = "Socio de entrega asignado";
+"OC"                                 = "Orden cancelada";
+"OR"                                 = "Orden rechazada";
+"ADL"                                = "En el lugar de entrega";
+"virtualCredits"                     = "Créditos virtuales";

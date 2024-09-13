@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="WixMadeforDisplay-Bold.ttf">
+            <string>WixMadeforDisplay-Bold</string>
+        </array>
+        <array key="WixMadeforDisplay-SemiBold.ttf">
+            <string>WixMadeforDisplay-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NavigationView" customModule="Semilla" customModuleProvider="target">
+            <connections>
+                <outlet property="btnBack" destination="91o-BN-ucx" id="PXi-eJ-d87"/>
+                <outlet property="btnEditProfile" destination="H2d-8P-vIr" id="EPy-t1-Nmj"/>
+                <outlet property="lblTitle" destination="iMT-u7-mcC" id="ygO-jq-Pyh"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xJJ-co-pBw">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="126"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="91o-BN-ucx">
+                            <rect key="frame" x="10" y="39.5" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="2ng-iw-RzG"/>
+                                <constraint firstAttribute="height" constant="44" id="Vle-Wg-BWY"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
+                            <connections>
+                                <action selector="btnBack:" destination="-1" eventType="touchUpInside" id="h9o-13-adW"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iMT-u7-mcC">
+                            <rect key="frame" x="59" y="49.5" width="296" height="21"/>
+                            <fontDescription key="fontDescription" name="WixMadeforDisplay-SemiBold" family="Wix Madefor Display" pointSize="18"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button hidden="YES" opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H2d-8P-vIr">
+                            <rect key="frame" x="336" y="41" width="68" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="68" id="P2h-y0-DBt"/>
+                                <constraint firstAttribute="height" constant="44" id="aLx-lS-4nP"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="WixMadeforDisplay-Bold" family="Wix Madefor Display" pointSize="14"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Clear all">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="btnBack:" destination="-1" eventType="touchUpInside" id="nS0-Od-TIk"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="iMT-u7-mcC" firstAttribute="leading" secondItem="91o-BN-ucx" secondAttribute="trailing" constant="5" id="35f-BG-7fR"/>
+                        <constraint firstItem="H2d-8P-vIr" firstAttribute="centerY" secondItem="xJJ-co-pBw" secondAttribute="centerY" id="5rd-ja-SMe"/>
+                        <constraint firstAttribute="trailing" secondItem="iMT-u7-mcC" secondAttribute="trailing" constant="59" id="E5z-fg-3bv"/>
+                        <constraint firstItem="91o-BN-ucx" firstAttribute="centerY" secondItem="xJJ-co-pBw" secondAttribute="centerY" constant="-1.5" id="NY6-qV-hPn"/>
+                        <constraint firstItem="91o-BN-ucx" firstAttribute="leading" secondItem="xJJ-co-pBw" secondAttribute="leading" constant="10" id="dQD-9U-VX0"/>
+                        <constraint firstItem="iMT-u7-mcC" firstAttribute="centerX" secondItem="xJJ-co-pBw" secondAttribute="centerX" id="dcp-Uo-CtA"/>
+                        <constraint firstAttribute="trailing" secondItem="H2d-8P-vIr" secondAttribute="trailing" constant="10" id="uHG-1B-heF"/>
+                        <constraint firstItem="iMT-u7-mcC" firstAttribute="centerY" secondItem="91o-BN-ucx" secondAttribute="centerY" constant="-1.5" id="wza-GN-Jri"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="xJJ-co-pBw" secondAttribute="trailing" id="Adc-Lj-sIa"/>
+                <constraint firstItem="xJJ-co-pBw" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="P1h-TU-eOe"/>
+                <constraint firstItem="xJJ-co-pBw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Pum-W3-y0y"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="xJJ-co-pBw" secondAttribute="bottom" id="fZd-Lj-6Lb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="86.956521739130437" y="38.839285714285715"/>
+        </view>
+    </objects>
+</document>
