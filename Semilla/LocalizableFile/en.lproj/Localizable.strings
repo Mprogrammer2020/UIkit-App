@@ -1,0 +1,358 @@
+/*
+ Localizable.strings
+ Semilla
+ 
+ Created by Netset on 19/04/24.
+ 
+ */
+
+//MARK: - App Name
+
+"appName" = "Semilla";
+
+
+//MARK: - AlertMessages
+
+"okay"                               = "Okay";
+"checkInternet"                      = "Please check your internet connection";
+"noInternetConnection"               = "Internet not availble, Cross check your Internet connectivity and try again.";
+"appNeedsPermission"                 = "You can enable location tracking features by granting location access in the app settings.";
+"pleaseReviewyournetworksettings"    = "Please Review your network settings";
+"serverNotResponding"                = "Server not responding";
+"cameraPermissionNotAccess"          = "Camera access required for capturing photos!";
+"settingPermission"                  = "This app needs permission to use this feature. You can grant them in app settings";
+"sessionExpire"                      = "Your session has expired, please login again.";
+"logoutMsg"                          = "Are you sure you want to logout?";
+"serverNotRespondTryAgain"           = "Server not responding, Please try again.";
+"errrOccured"                        = "Error";
+"incorrectCardDetails"               = "Card Details Incorrect.";
+"performLoginrequired"               = "To perform this action login required!";
+"cultivatorOutsideChangeAddress"     = "This cultivator is outside your service area. Please change your address.";
+"outOfStock"                         = "Out of stock.";
+"itemHasOutOfStock"                  = "Item has out of stock";
+"maximumQuantitLimitReached"         = "Maximum quantity limit reached.";
+"addressUpdatedSuccessfully"         = "Address updated successfully.";
+"addressAddedSuccessfully"           = "Address added successfully.";
+"areYouSureYouWantToCancelOrder"     = "Are you sure you want to cancel this order? ";
+"numberIsNotValid"                   = "Number is not valid";
+"noNumberShowing"                    = "No Number Showing";
+"areYouSureYouWantToDeleteAddress"   = "Are you sure you want to delete this address?";
+"areYouSureYouWantToDeleteCard"      = "Are you sure you want to delete this card?";
+"noItemFound"                       = "No items found";
+"byContinuingYouAgreeToOur"          = "By continuing you agree to our ";
+"and"                                = " and ";
+"enterTheOTPSentTo"                  = "Enter the OTP sent to ";
+"toolTipMessage"                     = "We are going to make an initial charge to your payment method. If there is any modifications, we will adjust it when your order is delivered. Clicking this button will charge your card.";
+"orderDeliveredSuccessfully"         = "Order Delivered Successfully.";
+"orderHasBeenCancelled"              = "Order has been Cancelled.";
+"orderHasBeenRejected"               = "Order has been Rejected.";
+"orderHasBeenPlacedSuccessfully"     = "Your order has been placed successfully.";
+"whatDoYouWantToOrder?"              = "What do you want to order";
+
+//MARK: - AlertButtonsTitle
+
+"okay"                               = "Okay";
+"cancel"                             = "Cancel";
+"setting"                            = "Setting";
+"camera"                             = "Camera";
+"gallery"                            = "Gallery";
+"important"                          = "IMPORTANT";
+"allowCamera"                        = "Allow Camera";
+"cameraNotSupported"                 = "Camera not supported";
+"grantPermissions"                   = "Grant Permissions";
+"yes"                                = "Yes";
+"login"                              = "Login";
+"no"                                 = "No";
+"addCard"                            = "Add Card";
+"changeCard"                         = "Change Card";
+"addAddress"                         = "Add Address";
+"changeAddress"                      = "Change Address";
+"submit"                             = "Submit";
+"next"                               = "Next";
+"goToCart"                           = "GO TO CART";
+"addToCart"                          = "Add TO CART";
+"resendOTP"                          = "RESEND OTP";
+"reset"                              = "Reset";
+"goToHome"                           = "Go To Home";
+
+//MARK: - Display Names
+
+"editAddress"                        = "Edit Address";
+"addNewAddress"                      = "Add New Address";
+"privacyPolicy"                      = "Privacy Policy";
+"termsOfService"                     = "Terms of Service";
+"productDetails"                     = "Product Details";
+
+// MARK: - ValidationMessages
+"ok"                                 = "OK";
+"connectionProblem"                  = "Connection Problem";
+"enterFirstName"                     = "First Name field can’t be empty.";
+"enterLastName"                      = "Last Name field can’t be empty.";
+"enterMobileNo"                      = "Mobile Number field can’t be empty.";
+"enterPhoneNo"                       = "Phone Number field can’t be empty.";
+"inValidMobileNo"                    = "Please enter valid Mobile Number.";
+"inValidPhoneNo"                     = "Please enter valid Phone Number.";
+"numberAlreadyRegistered"            = "This Mobile Number already registered, please try another.";
+"enterPassword"                      = "Please enter your password.";
+"enterOtp"                           = "OTP field can’t be empty.";
+"invalidOTP"                         = "OTP is invalid.";
+"selectCountry"                      = "Please select Country.";
+"enterAddress"                       = "Address field can't be empty.";
+"enterApartments"                    = "Unit/Apartment Number field can't be empty.";
+"enterCity"                          = "City field can't be empty.";
+"enterStreet"                        = "Street field can't be empty.";
+"enterCity"                          = "City field can't be empty.";
+"enterEmail"                         = "Email field can't be empty.";
+"inValidEmail"                       = "Please enter valid email address.";
+"enterFullName"                      = "Name field can't be empty.";
+"enterMessage"                       = "Message field can't be empty.";
+"oTPSentSuccessfully"                = "OTP sent successfully.";
+"oTPReSentSuccessfully"              = "OTP resent successfully.";
+"enterCardNo"                        = "Card Number field can't be empty.";
+"enterCardNoInvalid"                 = "Card Number is not valid.";
+"enterCardCvvInvalid"                = "CVV is not valid.";
+"enterCardUser"                      = "Card Holder Name field can't be empty.";
+"enterCardCvv"                       = "CVV field can't be empty.";
+"enterCardExpire"                    = "Please select expiry date.";
+"enterCardAddedSuccess"              = "Card added successfully.";
+"profileCreated"                     = "Profile created successfully.";
+"profileUpdated"                     = "Profile data updated successfully.";
+"selectRating"                       = "Please select rating star.";
+"productAddedSuccess"                = "Item added to cart.";
+"itemOutOfStock"                     = "Some items are out of stock. Please check your cart.";
+
+//MARK: - StoryBoard Strings
+
+//Main StoryBoard
+
+"heighestQualityVFCAvailble"         = "The Highest Quality Vegetables, Fruits, And Cannabis Available In Your Area.";
+"welcomeBack"                        = "Welcome Back!";
+"enterMobileNumber"                  = "Please enter your mobile number";
+"mobileNumber"                       = "Mobile Number";
+"enterYourMobileNumber"              = "Enter your Mobile Number";
+"signIn"                             = "Sign In";
+"DontHaveAccount"                    = "Don’t have an account? ";
+"signUp"                             = "Sign Up";
+"or"                                 = "OR";
+"continueAsGuest"                    = "Continue as Guest";
+"enterYourCredentialsToContinue"     = "Enter your credentials to continue.";
+"firstName"                          = "First Name";
+"lastName"                           = "Last Name";
+"enterYourFirstName"                 = "Enter Your First Name";
+"enterYourLastName"                  = "Enter Your Last Name";
+"enterFName"                         = "Enter First Name";
+"enterLName"                         = "Enter Last Name";
+"enterCty"                           = "Enter City";
+"alreadyHaveAnAccount"               = "Already have an account? ";
+"otpVerification"                    = "OTP Verification";
+"didntReceiveTheOTP?"                = "Didn’t receive the OTP? ";
+"jan"                                = "Jan";
+"feb"                                = "Feb";
+"mar"                                = "Mar";
+"apr"                                = "Apr";
+"may"                                = "May";
+"jun"                                = "Jun";
+"jul"                                = "Jul";
+"aug"                                = "Aug";
+"sep"                                = "Sep";
+"oct"                                = "Oct";
+"nov"                                = "Nov";
+"dec"                                = "Dec";
+
+
+//Home StoryBoard
+
+"recentlyListed"                     = "Recently Listed";
+"all"                                = "All";
+"seeAll"                             = "See all";
+"trendingCultivator"                 = "Trending Cultivators";
+"allProducts"                        = "All Products";
+"cultivators"                        = "Cultivators";
+"noCultivatorFound"                  = "No Cultivator Found";
+"searchCultivators"                  = "Search Cultivators";
+"myProfile"                          = "My Profile";
+"chooseFrom"                         = "Choose From";
+"orderHistory"                       = "Order History";
+"myAddresses"                        = "My Addresses";
+"myCards"                            = "My Cards";
+"credits"                            = "Credits";
+"helpAndSupport"                     = "Help and Support";
+"changeLanguage"                     = "Change Language";
+"aboutUs"                            = "About Us";
+"signOut"                            = "Sign out";
+"searchHistory"                      = "Search History";
+"selectDebitCreditCard"              = "Select a Debit/Credit card ";
+"addNewCard"                         = "+ Add New Card";
+"primary"                            = "Primary";
+"noCardFound"                        = "No Card Found";
+"creditDebitCard"                    = "Credit/Debit card ";
+"enterYourCreditDebitCardDetails"    = "Please Enter your Credit/Debit Card Details";
+"enterCreditDebitCardNumber"         = "Enter your Debit/Credit Card Number";
+"enterCardHolderName"                = "Enter Card Holder Name";
+"cvv"                                = "CVV";
+"expiry"                             = "Expiry";
+"save"                               = "Save";
+"profileDetails"                     = "Profile Details";
+"products"                           = "Products";
+"ourProducts"                        = "Our Products";
+"customerReview"                     = "Customer Review";
+"addOrChooseAnAddress"               = "Add or choose an address";
+"enterAddress"                       = "Enter Address";
+"currentLocation"                    = "Current Location";
+"noReviews"                          = "No reviews";
+"filter"                             = "Filter";
+"ratings"                            = "Ratings";
+"categories"                         = "Categories";
+"apply"                              = "Apply";
+"km"                                 = "Km";
+"0Km"                                = "0KM";
+"100Km"                              = "100KM";
+"location"                           = "Location";
+"plusAddAddress"                     = "+ Add Address";
+"noAddressFound"                     = "No Address Found";
+"plusAddNewAddress"                  = "+ Add New Address";
+"editProfile"                        = "Edit Profile";
+"country"                            = "Country";
+"selectCountry"                      = "Select Country";
+"phoneNumber"                        = "Phone Number";
+"enterphoneNumber"                   = "Enter Phone Number";
+"address"                            = "Address";
+"enterAddress"                       = "Enter Address";
+"apartment"                          = "Unit/Apartment Number";
+"enterApartment"                     = "Enter Unit/Apartment Number";
+"street"                             = "Street";
+"enterStreet"                        = "Enter Street";
+"notifications"                      = "Notifications";
+"noNotificationsFound"               = "No Notifications Found";
+"contactUs"                          = "Contact us";
+"empoweringWithSupportAndSolutions"  = "Empowering you with Support and Solutions.";
+"enterYourEmail"                     = "Enter your Email";
+"enterYourFullName"                  = "Enter your Full Name";
+"enterYourMessage"                   = "Enter your Message";
+"sendMessage"                        = "Send Message";
+"success"                            = "Success!";
+"ConcernHasReceived"                 = "Your concern has been received. We'll address it promptly.";
+"chooseLanguage"                     = "Choose Language";
+"english"                            = "English";
+"spanish"                            = "Spanish";
+"shoppingCart"                       = "Shopping Cart";
+"yourCartIsGettingLonely"            = "Your Cart Is Getting lonely";
+"fillItUpWithGoodThings"             = "Fill it up with good things";
+"wantToApplyCredits"                 = "Want to apply Credits?";
+"availableCredits"                   = "Available Credits?";
+"deliveredTo"                        = "Delivered To:";
+"noDeliveryAddress"                  = "No Delivery Address";
+"deliveryTime"                       = "Delivery Time";
+"paymentInformation"                 = "Payment Information:";
+"noCardAdded"                        = "No Card Added";
+"billDetails"                        = "Bill Details";
+"itemTotal"                          = "Items Total";
+"deliveryFee"                        = "Delivery Fee";
+"serviceFee"                         = "Service Fee";
+"cartTotal"                          = "Cart Total";
+"makeAnInitialCharge"                = "We are going to make an initial charge to your payment method. If there are any modifications, we will adjust it when your order is delivered. Clicking this button will charge your card.";
+"checkOut"                           = "Checkout";
+
+// StoryBoard Checkout
+
+"helpSupport"                        = "Help Support";
+"viewOrderDetails"                   = "View Order Details";
+"noDriverAssign"                     = "No Driver Assigned!";
+"otp"                                = "OTP:";
+"estimatedTime"                      = "Estimated Time";
+"mins"                               = "mins";
+"driverDetails"                      = "Driver Details";
+"id"                                 = "ID:";
+"selectAddress"                      = "Select Address";
+"searchAddress"                      = "Search Address...";
+"home"                               = "Home";
+"office"                             = "Office";
+"other"                              = "Other";
+"order"                              = "Order";
+"placedOn"                           = "Placed On:";
+"items"                              = "Items:";
+"price"                              = "Price:";
+"readyToPickup"                      = "Ready To Pickup";
+"orderDelivered"                     = "Order Delivered";
+"orderPlaced"                        = "Order Placed!";
+"orderPlacedNew"                     = "Order Placed";
+"orderCanceled"                      = "Cancelled";
+"outForDelivery"                     = "Out For Delivery";
+"orderInitiated"                     = "Order Initiated";
+"orderAccepted"                      = "Accepted";
+"deliveryPartnerAssigned"            = "Delivery Partner Assigned";
+"orderRejected"                      = "Rejected";
+"atDeliveryLocation"                 = "At Delivery Location";
+"noOrderHistoryFound"                = "No Order History Found";
+"store"                              = "Store";
+"myLocation"                         = "My Location";
+"orderDetails"                       = "Order Details";
+"estimatedArrival"                   = "Estimated Arrival";
+"trackOrder"                         = "Track Order";
+"deliveryAddress"                    = "Delivery Address";
+"outForDelivery..."                  = "Out for delivery ...";
+"trackDriverOnMap"                   = "Your order is out for delivery. Track the driver on the map.";
+"pickYourOrder"                      = "The driver has arrived at your location. Please pick up your order.";
+"driverFeedback"                     = "Driver Feedback";
+"productFeedback"                    = "Product Feedback";
+"provideFeedBackDriver"              = "Provide feedback for the driver.";
+"provideFeedbackProduct"            = "Provide feedback on product.";
+"writeReview"                        = "Write Review";
+"quicklyRateYourDriver"              = "Quickly rate your driver's service. We value your feedback!";
+"letUsKnowWhatYouThink"              = "Let us know what you think";
+"skip"                               = "Skip";
+"shareYourExperience"                = "Loved what you got? Give us a quick rating and share your experience.";
+"productReview"                      = "Product Review";
+"Successful"                         = "Successful!";
+"orderSuccessfullyDelivered"         = "Your order has been delivered successfully. We hope you are satisfied with your purchase. Please share your feedback with us.";
+"registrationSuccessful"            = "Registration successful.";
+"orderPlacedSuccessful"              = "Order Placed Successful";
+"customizeQuantity"                  = "Customize Quantity";
+"selectUnit"                         = "Select Unit";
+"selectQuantity"                     = "Select Quantity";
+"areYouSureYouWantToSignout?"        = "Are you sure you want to signout?";
+"selectExpiryDate"                   = "Select Expiry Date";
+"confirmation"                       = "Confirmation?";
+"areYouSureYouWantToProceed?"        = "Are you sure you want to proceed?";
+
+//New
+"credits"                            = "Credits";
+"availableCredits"                   = "Available Credits:";
+"creditHistory"                      = "Credit History";
+"weWillNotifyYouHaveAvailableAgain"  = "We will notify you when you have some available again";
+"atTheMomentHaveNoAvailableCredits"  = "At the moment, you have no available Credits";
+"lifetimeCredits"                    = "Lifetime Credits";
+"city"                               = "City";
+"exp"                                = "Exp";
+"monthAgo"                           = "month ago";
+"dayAgo"                             = "day ago";
+"hourAgo"                            = "hour ago";
+"yearAgo"                            = "year ago";
+"minuteAgo"                          = "minute ago";
+"weekAgo"                            = "week ago";
+"justNow"                            = "just now";
+"selectType"                         = "Select Card Type";
+"selectCardType"                     = "Please select card type.";
+"deleteAccountValidation"            = "Are you sure you want to delete your account?";
+"deleteAccount"                      = "Delete Account";
+"update"                             = "Update";
+"orderMinimumAmount"                 = "The order must be a minimum of $25,000 pesos.";
+"cultivatorStatus"                   = "Cultivator is not available at the moment.";
+"atTheMoment"                        = "At the moment, you have";
+"availableCred"                      = "available credits";
+"weWillNotify"                       = "We will notify you when you have some available again";
+"creditsApplied"                     = "Credits Applied";
+"noCreditsHistory"                   = "No Credits History";
+"creditedOn"                         = "Credited On";
+"spentOn"                            = "Spent On";
+"expired"                            = "Expired";
+"expiredOn"                          = "Expired On";
+"OA"                                 = "Order Accepted";
+"OP"                                 = "Order Placed";
+"OFD"                                = "Out For Delivery";
+"OD"                                 = "Order Delivered";
+"DPA"                                = "Delivery Partner Assigned";
+"OC"                                 = "Order Cancelled";
+"OR"                                 = "Order Rejected";
+"ADL"                                = "At Delivery Location";
+"virtualCredits"                     = "Virtual Credits";
